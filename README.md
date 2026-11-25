@@ -22,6 +22,7 @@ Loon → 配置 → 从 URL 下载配置 → 粘贴上面地址 → 启用。
 - 广告规则在远程规则第一位，国内 CN 规则最后兜底
 - SSID 场景切换：指定 WiFi 自动直连，蜂窝数据自动规则分流（配置里把 `YOUR_WIFI_NAME` 换成你家 WiFi 名）
 - 插件默认只开 2 个（Block_HTTPDNS、BlockAdvertisers）
+- App 级规则直接引用 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 的 Loon 规则（33 条），GeoSite 仅作分类兜底；溯源见 [SOURCES.md](SOURCES.md)
 - 本仓库不含任何订阅链接和节点信息，订阅请在 Loon 本地添加
 
 ## 致谢
